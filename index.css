@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.ctn {
+    height: 100vh;
+    background: url(https://avatars.mds.yandex.net/get-zen_doc/29030/pub_5b2689acbca8f700a8037bbb_5b268ba893b46900a878a720/scale_1200);
+    background-size: cover;
+}
+
+.inside-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    background-color: rgba(0, 255, 255, 0.52);
+    color: white;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    border-bottom-right-radius: 60px ;
+    border-bottom-left-radius: 60px ;
+}
+
+.box1,
+.box2,
+.box3 {
+    border: 1px solid white;
+    width: 200px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.box1:hover,
+.box2:hover,
+.box3:hover{
+    background-color: aqua;
+    cursor: pointer;
+}
